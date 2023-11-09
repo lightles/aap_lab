@@ -5,3 +5,6 @@
       debug:
         msg: "{{ hostvars[inventory_hostname] }}"
 
+    - name: test
+      debug:
+        msg: "{{ test_data_thing }}"

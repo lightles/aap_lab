@@ -1,5 +1,5 @@
 - name: set_stats
-  hosts: localhost
+  hosts: all
   tasks:
     - name:
       set_stats:

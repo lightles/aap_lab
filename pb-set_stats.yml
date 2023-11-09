@@ -1,0 +1,8 @@
+- name: set_stats
+  hosts: localhost
+  tasks:
+    - name:
+      set_stats:
+        data:
+          test_data_thing: "Hello World"
+

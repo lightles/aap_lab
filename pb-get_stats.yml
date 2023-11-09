@@ -1,0 +1,7 @@
+- name: get_stats
+  hosts: localhost
+  tasks:
+    - name: test
+      debug:
+        msg: "{{ hostvars[inventory_hostname] }}"
+
